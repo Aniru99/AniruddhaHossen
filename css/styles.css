@@ -1,0 +1,91 @@
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #E4F9F5;
+}
+h2{
+  padding: 50px;
+}
+hr{
+   position:relative;
+   top:25px;
+    border-style:none;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 6px;
+    width: 5%;
+}
+.para1{
+   font-size: 20px;
+   font-family: 'Courgette', cursive;
+}
+
+.top-container {
+    padding-top: 150px;
+
+}
+.color_change:hover{
+  color:blue;
+}
+.bottom-cloud{
+  position: absolute;
+  right: 900px;
+}
+.top-cloud{
+  position: absolute;
+  top:100px;
+  right:450px;
+}
+
+.profile{
+  position:absolute;
+  bottom: 220px;
+  right:70px;
+}
+.skills{
+    position:relative;
+    top:50px;
+    padding:50px;
+}
+.contact-me{
+    padding:100px;
+}
+.skill-row{
+  position:relative;
+  bottom: 60px;
+}
+.prog{
+  position:relative;
+  bottom: 60px;
+}
+.up{
+  position:relative;
+  bottom: 60px;
+}
+.down{
+  position:relative;
+  top: 60px;
+}
+.tier5{
+  position:absolute;
+  left:400px;
+  height: 100px; width: 200px;
+}
+.prakrity{
+  position:relative;
+  left:350px;
+  height: 100px; width: 200px;
+}
+.spotify{
+  position:relative;
+  height:100px;width: 200px;
+    right:110px;
+}
+.adjust{
+  position: relative;
+  bottom:100px;
+}
