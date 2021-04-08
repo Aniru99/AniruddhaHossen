@@ -48,7 +48,7 @@ hr{
 }
 .skills{
     position:relative;
-    top:50px;
+    top:10px;
     padding:50px;
 }
 .contact-me{
@@ -88,4 +88,9 @@ hr{
 .adjust{
   position: relative;
   bottom:100px;
+}
+.img1{
+  position: relative;
+  top: 10px;
+  padding:70px;
 }
