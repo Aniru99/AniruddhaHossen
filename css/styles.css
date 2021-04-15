@@ -2,8 +2,7 @@
 body{
   background-color: #E4F9F5;
   color: #40514E;
-  height: 100%;
-  width: 100%;
+
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -51,13 +50,15 @@ a:hover{
 }
 
 .top-container {
+    position:relative;
     padding-top: 160px;
 }
 .middle-container{
-
+  position:relative;
 }
 .bottom-container{
-  padding: 50px 0 20px;
+    position:relative;
+  padding: 50px 0 20px 0;
   background-color:#78c4d4;
   color: black;
 }
@@ -73,15 +74,23 @@ a:hover{
   bottom:50px;
   left:200px;
 }
-
+.mountain{
+  position: relative;
+  bottom: 90px;
+}
 .profile{
   position:relative;
-  bottom: 520px;
+  bottom: 582px;
   left:450px;
+}
+.dp{
+   height:200px;
+   width:200px;
+  border-radius: 100%;
 }
 .skills{
     position:relative;
-    top:10px;
+    bottom:250px;
     padding:50px;
 }
 
@@ -94,6 +103,7 @@ a:hover{
   position: relative;
   right:300px;
   margin-top: 50px;
+  height: 150px; width: 150px;
 
 }
 .img2{
@@ -119,6 +129,7 @@ a:hover{
   position:relative;
   bottom: 130px;
 }
+
 
 .tier5{
   position:absolute;
